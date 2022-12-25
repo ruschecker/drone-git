@@ -1,4 +1,4 @@
-FROM plugins/base:linux-amd64
+FROM ruschecker/drone-base-plugin:latest
 
 LABEL maintainer="Drone.IO Community <drone-dev@googlegroups.com>" \
   org.label-schema.name="Drone Git" \
